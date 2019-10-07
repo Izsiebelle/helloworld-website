@@ -94,7 +94,12 @@ nav a:hover {
 
 .event-text{
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 25%  25% 25% 25%;
+}
+
+#event-table-title {
+  text-align: left;
+  color: #597332;
 }
 
 .event-name{
@@ -102,7 +107,20 @@ nav a:hover {
   font-size: 24px;
   margin: 5px;
   color: #597332;
-  text-align: center;
+}
+
+.event-time{
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  margin: 5px;
+  color: #708090;
+}
+
+.event-place{
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  margin: 5px;
+  color: #708090;
 }
 
 .event-info{
@@ -110,7 +128,6 @@ nav a:hover {
   font-size: 24px;
   margin: 5px;
   color: #708090;
-  text-align: center;
 }
 
 .contact-us-section {
