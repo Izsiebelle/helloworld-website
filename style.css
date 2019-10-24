@@ -85,7 +85,7 @@ nav a:hover {
   margin-bottom: 50px;
   font-size: 24px;
   font-family: 'Josefin Slab', serif;
-  line-height: 1.25; 
+  line-height: 1.25;
 }
 
 .events{
@@ -172,4 +172,10 @@ footer p {
   text-align: center;
   margin: 0.5em;
   font-family: 'Josefin Slab', serif;
+}
+
+/* about.html style */
+
+.izsie {
+  background-color: #708090;
 }
