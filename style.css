@@ -177,5 +177,42 @@ footer p {
 /* about.html style */
 
 .izsie {
+  margin-top: 2em;
   background-color: #708090;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.izsie-img{
+  grid-column: 1;
+  text-align: center;
+}
+
+.izsie-img img{
+  object-fit: cover;
+  height: 40em;
+  margin: 1em;
+  justify-content: center;
+}
+
+.izsie-info{
+  grid-column: 2;
+  text-align: center;
+}
+
+.izsie-info h1{
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  color: #304536;
+  text-align: center;
+}
+
+.izsie-info p {
+  background-color: #fff;
+  font-size: 24px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  padding: 1em;
+  margin: 1em;
+  color: #597332;
 }
